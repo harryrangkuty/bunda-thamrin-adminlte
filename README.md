@@ -1,7 +1,8 @@
 # SIMRS With Laravel + AdminLTE
 
 Sebuah proyek berbasis Laravel 11 yang menggunakan Laravel Breeze sebagai starter kit autentikasi, serta integrasi tema AdminLTE 4 untuk tampilan admin panel.
-![Uploading 1. Landing Page.png…]()
+
+![1  Landing Page](https://github.com/user-attachments/assets/875e06f3-7b69-4a69-903c-315052bff63f)
 
 ----
 
@@ -51,6 +52,12 @@ Contoh : /api/patients?from_date=2025-05-01&to_date=2025-05-23
 
 Contoh : /api/patients.registered
 
-
 # Dokumentasi (Screenshot) Sistem
 Dokumentasi dapat diakses di : https://drive.google.com/drive/folders/1TtSY2mUkv2EikJpP8ZfZZCAMO_4LIU7Z?usp=drive_link
+
+# Screenshot
+![3  Data Pasien](https://github.com/user-attachments/assets/adc8aa0d-5f0c-4152-b0be-050414f81d3f)
+![4 Create Data Pasien](https://github.com/user-attachments/assets/c667670e-9e2d-4de3-baef-d02f657a159a)
+![5 Edit Data Pasien](https://github.com/user-attachments/assets/f71a8387-5baa-4bf6-9a0c-f65aa3a45d51)
+![6  Data Pendaftaran](https://github.com/user-attachments/assets/73b746e9-25eb-4861-8c30-0075fbe4af26)
+![7  Hasil Export Data Pendaftaran PDF](https://github.com/user-attachments/assets/ee7e1e39-dfcd-49f8-9463-0c07c94d6d2f)
