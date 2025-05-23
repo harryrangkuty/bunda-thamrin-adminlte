@@ -12,14 +12,29 @@ Sebuah proyek berbasis Laravel 11 yang menggunakan Laravel Breeze sebagai starte
    - barryvdh/laravel-dompdf 3.1
    - Laravel Sanctum 4.0
 
+# Database
+Dokumentasi dapat didownload di : https://drive.google.com/file/d/1Wn4FOlXm_XU1ba6T79DG1jSBq5uyH2QP/view?usp=sharing
+
 # Instalasi:
 1. git clone <repo>
 2. composer install
-3. php artisan key:generate
-4. npm install
-5. npm run build
-6. php artisan serve
+3. cp .env.example .env
+4. ganti db_connection dari sqlite ke mysql seperti dibawah ini :
 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=bunda_thamrin_lte
+DB_USERNAME=root
+DB_PASSWORD=
+
+(Opsional) Ganti App_Name menjadi :
+APP_NAME='SIMRS Bunda Thamrin'
+
+4. php artisan key:generate
+5. npm install
+6. npm run build
+7. php artisan serve
 
 # Dokumentasi API Pasien
 1. Daftar Pasien  
