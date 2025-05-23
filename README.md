@@ -34,3 +34,7 @@ Contoh : /api/patients?from_date=2025-05-01&to_date=2025-05-23
 **Endpoint : GET** `/patients/registered`
 
 Contoh : /api/patients.registered
+
+
+# Dokumentasi (Screenshot) Sistem
+Dokumentasi dapat diakses di : https://drive.google.com/drive/folders/1TtSY2mUkv2EikJpP8ZfZZCAMO_4LIU7Z?usp=drive_link
