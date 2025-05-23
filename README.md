@@ -1,4 +1,4 @@
-# SIMRS Bunda Thamrin AdminLTE
+# SIMRS With Laravel + AdminLTE
 
 Sebuah proyek berbasis Laravel 11 yang menggunakan Laravel Breeze sebagai starter kit autentikasi, serta integrasi tema AdminLTE 4 untuk tampilan admin panel.
 
