@@ -15,7 +15,7 @@ Sebuah proyek berbasis Laravel 11 yang menggunakan Laravel Breeze sebagai starte
    - Laravel Sanctum 4.0
 
 # Database
-Dokumentasi dapat didownload di : https://drive.google.com/drive/folders/1uQnerQoai6aSXpbdSLK4h2HoTWcdhFU-?usp=drive_link
+DB dapat didownload di : https://drive.google.com/drive/folders/1uQnerQoai6aSXpbdSLK4h2HoTWcdhFU-?usp=drive_link
 
 # Instalasi:
 1. git clone <repo>
