@@ -1,7 +1,16 @@
+# SIMRS Bunda Thamrin AdminLTE
+
+Sebuah proyek berbasis Laravel 11 yang menggunakan Laravel Breeze sebagai starter kit autentikasi, serta integrasi tema AdminLTE 4 untuk tampilan admin panel.
+
+----
+
 # Teknologi yang Dipakai :
    - Laravel 11
-   - Laravel Breeze (Blade only tanpa tailwind)
-   - AdminLte 4 Package
+   - Laravel Breeze
+   - AdminLte 4.0.0-Beta3 Package
+   - Maatwebsite/excel 3.1
+   - barryvdh/laravel-dompdf 3.1
+   - Laravel Sanctum 4.0
 
 # Instalasi:
 1. git clone <repo>
@@ -13,9 +22,8 @@
 
 
 # Dokumentasi API Pasien
-
 1. Daftar Pasien  
-**GET** `/patients`  
+**Endpoint : GET** `/patients`  
 Query opsional:  
 - `from_date=YYYY-MM-DD`  
 - `to_date=YYYY-MM-DD`  
@@ -23,4 +31,6 @@ Query opsional:
 Contoh : /api/patients?from_date=2025-05-01&to_date=2025-05-23
 
 2. Daftar Pasien Terdaftar  
-**GET** `/patients/registered`
+**Endpoint : GET** `/patients/registered`
+
+Contoh : /api/patients.registered
