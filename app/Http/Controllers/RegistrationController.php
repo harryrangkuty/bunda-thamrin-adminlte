@@ -47,7 +47,7 @@ class RegistrationController extends Controller
             'medrec_number' => 'required|exists:patients,medrec_number',
         ]);
 
-        // Generate No.RM
+        // Generate No.Pendaftaran
         $date = \Carbon\Carbon::parse($request->registration_date)->format('ymd');
         $last = Registration::where('registration_number', 'like', $date . '%')
                             ->latest('registration_number')
