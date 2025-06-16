@@ -123,7 +123,7 @@
                                 @endif
                             @empty
                                 <tr>
-                                    <td colspan="7" class="text-center text-muted py-4">
+                                    <td colspan="8" class="text-center text-muted py-4">
                                         <i class="bi bi-database-x fs-5 me-2"></i> Data tidak ditemukan
                                     </td>
                                 </tr>
